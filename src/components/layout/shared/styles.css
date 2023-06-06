@@ -1,0 +1,77 @@
+.mainHeader{
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+}
+
+.mainHeader .leftHeader{
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.mainHeader .leftHeader .avater{
+    height: 48px;
+    width: 48px;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+.mainHeader .leftHeader .avater img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    border: 2px solid lightgreen;
+}
+
+.mainHeader .rightHeader{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* // =============== */
+
+.mainPlace{
+    padding: 8px 10px;
+    background-color: lightgreen;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.mainPlace .MonthCal{
+    text-align: center;
+    padding: 8px 0;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 3px solid #fff;
+}
+
+.mainPlace .MonthCal p{
+    opacity: 0.88;
+}
+
+.mainPlace .mealInto{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.mealInto .leftSide , .mealInto .rightSide{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 3px solid #fff;
+}

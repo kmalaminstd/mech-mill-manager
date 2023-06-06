@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+/* common css */
+
+main{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+/* common css */
+
+/* login page design */
+.regPage , .login-page{
+    padding: 0 10px;
+}
+
+.regPage h1,.login-page h1{
+    text-align: center;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+.regPage h1::after, .login-page h1::after{
+    content: '';
+    background-color: #00aeff;
+    display: block;
+    height: 2px;
+    width: 300px;
+    margin: 10px auto;
+}
+
+.regPage .logo ,.login-page .logo{
+    width: 70px;
+    margin: 30px auto;
+}
+
+.regPage .logo img, .login-page .logo img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 4px solid lightgreen;
+}
+
+.regPage form, .login-page form{
+    width: 98%;
+    margin: 20px auto 10px auto;
+}
+
+.regPage form .privacybox{
+    width: 90%;
+    margin: 0 5%;
+    display: block;
+}
+
+.regPage .privacybox input, .login-page .privacybox input{
+    margin-right: 10px;
+}
+
+.login-page form input, .regPage form input:not(.privacybox input){
+    width: 90%;
+    margin: 10px 5%;
+    padding: 10px;
+    outline: none;
+    background-color: #00aeff27;
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.login-page .forgotpasslink{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.regPage .privacybox{
+    margin-top: 20px;
+}
+
+.regPage form button ,.login-page form button{
+    width: 100%;
+    background-color: #00aeff;
+    width: 90%;
+    margin: 15px 5%;
+    border: none;
+    padding: 8px 10px;
+    letter-spacing: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.login-page #createAccBtn{
+    width: 100%;
+    background-color: #00aeff;
+    width: 90%;
+    margin: 0 5%;
+    border: none;
+    padding: 8px 10px;
+    letter-spacing: 5px;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+button:disabled{
+    opacity: 0.5;
+    cursor: no-drop;
+}
+
+/* // register page */
+
+.regPage form select{
+    width: 90%;
+    margin: 10px 5%;
+    padding: 10px;
+    outline: none;
+    background-color: #00aeff27;
+    border: 0.5px solid lightgray;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
